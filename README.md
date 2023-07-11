@@ -1,6 +1,3 @@
-// # 11_july
-//Java Program 11 july
-
 public class BankAccount {
     public static void main(String[] args) {
         double balance = 25000.0;
@@ -12,6 +9,8 @@ public class BankAccount {
         // Calculate current balance
         balance += deposit;
         balance -= transfer;
+
+        // Calculate interest value
         double interest = balance * interestRate * months;
 
 
